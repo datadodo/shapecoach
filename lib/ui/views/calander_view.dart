@@ -129,7 +129,7 @@ class _Calander_ViewState extends State<Calander_View> {
     print(months[currentMon]);
     return Scaffold(
       appBar: AppBar(
-        title: new Text("Calendar          "+ months[currentMon-1]),
+        title: new Text("    Calendar          "+ months[currentMon-1]),
         leading: new Container(),
       ),
       body: Column(
