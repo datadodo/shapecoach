@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "393824243870",
+    "firebase_url": "https://shapecoach-8ed02.firebaseio.com",
+    "project_id": "shapecoach-8ed02",
+    "storage_bucket": "shapecoach-8ed02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393824243870:android:38992012e215525e1f2b8f",
+        "android_client_info": {
+          "package_name": "com.example.shapecoach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393824243870-sers7jtk4aoblt3cle6p6dhoov3hv8hr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdTL7Pq0F4gUb0Wrr-oUiaqL0FWxPUMvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393824243870-sers7jtk4aoblt3cle6p6dhoov3hv8hr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
