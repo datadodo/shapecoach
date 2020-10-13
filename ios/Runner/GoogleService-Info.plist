@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>249486936831-jvh5f0b0fe2m6pv8vudmem0i2c8hk1rj.apps.googleusercontent.com</string>
+	<string>249486936831-84dp6ta76dun2dom9tcle6p2kvn68sdl.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.249486936831-jvh5f0b0fe2m6pv8vudmem0i2c8hk1rj</string>
+	<string>com.googleusercontent.apps.249486936831-84dp6ta76dun2dom9tcle6p2kvn68sdl</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBW83TnFI3spf_QuKn7ywrPDysK_qqyImc</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.shapecoach</string>
+	<string>com.pegasus.shapecoach</string>
 	<key>PROJECT_ID</key>
 	<string>shapecoach-app</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:249486936831:ios:1eda61d52d59f74a1e5aca</string>
+	<string>1:249486936831:ios:54a469fe455ccc271e5aca</string>
 	<key>DATABASE_URL</key>
 	<string>https://shapecoach-app.firebaseio.com</string>
 </dict>

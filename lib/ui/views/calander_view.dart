@@ -88,34 +88,34 @@ class _Calander_ViewState extends State<Calander_View> {
           //   MaterialPageRoute(builder: (context) => ProfileView()),
           //
 
-            // flutter defined function
-            showDialog(
-              context: context,
-              builder: (BuildContext context) {
-                // return object of type Dialog
-                return AlertDialog(
-                  title: new Text("Warst du erfolgreich?"),
-                  content: new Text("Hast du dir heute 5 Minuten Zeit genommen, um über deine Essgewohnheiten nachzudenken?"),
-                  actions: <Widget>[
-                    // usually buttons at the bottom of the dialog
-                    new FlatButton(
-                      child: new Text("Nein"),
-                      onPressed: () {
-                        Navigator.of(context).pop();
-                      },
-                    ),
-                    new FlatButton(
-                      child: new Text("Ja"),
-                      onPressed: () {
-                        Navigator.of(context).pop();
-                      },
-                    ),
+          // flutter defined function
+          showDialog(
+            context: context,
+            builder: (BuildContext context) {
+              // return object of type Dialog
+              return AlertDialog(
+                title: new Text("Warst du erfolgreich?"),
+                content: new Text("Hast du dir heute 5 Minuten Zeit genommen, um über deine Essgewohnheiten nachzudenken?"),
+                actions: <Widget>[
+                  // usually buttons at the bottom of the dialog
+                  new FlatButton(
+                    child: new Text("Nein"),
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                    },
+                  ),
+                  new FlatButton(
+                    child: new Text("Ja"),
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                    },
+                  ),
 
 
-                  ],
-                );
-              },
-            );
+                ],
+              );
+            },
+          );
 
 
           print("onTap: $date");
@@ -134,15 +134,15 @@ class _Calander_ViewState extends State<Calander_View> {
       ),
       body: Column(
 
-      children: <Widget>[
-      Container(height: 120.0),
-      monthCalendarro,
-        const ListTile(
-          leading: Icon(Icons.album, size: 50),
-          title: Text('Woche 1: '),
-          subtitle: Text('Nimm dir jeden Tag 5 Minuten Zeit, um über deine Essgewohnheiten '),
-        ),
-      ],
+        children: <Widget>[
+          Container(height: 120.0),
+          monthCalendarro,
+          const ListTile(
+            leading: Icon(Icons.album, size: 50),
+            title: Text('Woche 1: '),
+            subtitle: Text('Nimm dir jeden Tag 5 Minuten Zeit, um über deine Essgewohnheiten '),
+          ),
+        ],
       ),
 
     );

@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:249486936831:android:4cd033a6e52d62dd1e5aca",
+        "mobilesdk_app_id": "1:249486936831:android:d8cdc113bcba433c1e5aca",
         "android_client_info": {
-          "package_name": "com.example.shapecoach"
+          "package_name": "com.pegasus.shapecoach"
         }
       },
       "oauth_client": [
@@ -30,6 +30,13 @@
             {
               "client_id": "249486936831-rsnccvmmtk4285kc9oc8ruigokohqa77.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "249486936831-84dp6ta76dun2dom9tcle6p2kvn68sdl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pegasus.shapecoach"
+              }
             }
           ]
         }

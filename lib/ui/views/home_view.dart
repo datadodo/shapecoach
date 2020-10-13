@@ -26,7 +26,7 @@ class _HomeViewState extends State<HomeView> {
   final List<Widget> _children = [
     Calander_View(),
     PostHomeView(),
-     CreatePostView(),
+     // CreatePostView(),
     // ProfileView(),
     // PostPic(),
     // MessagesPage(),
@@ -55,7 +55,7 @@ class _HomeViewState extends State<HomeView> {
           ),
           BottomNavigationBarItem(
             icon: new Icon(Icons.add_a_photo_rounded),
-            title: new Text('Progress'),
+            title: new Text('Fortschrittsbericht'),
           ),
           // BottomNavigationBarItem(
           //   icon: new Icon(Icons.mail),
